@@ -64,9 +64,10 @@ export const Work = () => {
             {projects.map((project, index) => (
               <Card 
                 key={index} 
-                className={`group hover:shadow-elegant transition-smooth ${
+                className={`group hover:shadow-elegant transition-smooth animate-fade-in ${
                   project.highlight ? 'md:col-span-2 border-primary/20' : ''
                 }`}
+                style={{ animationDelay: `${index * 0.1}s` }}
               >
                 <CardHeader>
                   <div className="flex items-start justify-between gap-4">

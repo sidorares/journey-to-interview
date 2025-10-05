@@ -5,7 +5,7 @@ export const Contact = () => {
   return (
     <section id="contact" className="py-24 bg-gradient-hero text-primary-foreground">
       <div className="container mx-auto px-6">
-        <div className="max-w-3xl mx-auto text-center">
+        <div className="max-w-3xl mx-auto text-center animate-fade-in">
           <h2 className="text-4xl md:text-5xl font-bold mb-6">
             Let's Create Something Amazing
           </h2>

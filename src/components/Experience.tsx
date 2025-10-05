@@ -75,9 +75,10 @@ export const Experience = () => {
               {experiences.map((exp, index) => (
                 <div 
                   key={index}
-                  className={`relative flex flex-col md:flex-row gap-8 ${
+                  className={`relative flex flex-col md:flex-row gap-8 animate-fade-in ${
                     index % 2 === 0 ? 'md:flex-row-reverse' : ''
                   }`}
+                  style={{ animationDelay: `${index * 0.15}s` }}
                 >
                   {/* Timeline Dot */}
                   <div className="absolute left-0 md:left-1/2 w-4 h-4 bg-primary rounded-full transform -translate-x-1.5 md:-translate-x-2 shadow-glow" />
@@ -100,7 +101,7 @@ export const Experience = () => {
           </div>
 
           {/* Education */}
-          <div className="mt-16 p-8 bg-gradient-subtle rounded-lg shadow-elegant">
+          <div className="mt-16 p-8 bg-gradient-subtle rounded-lg shadow-elegant animate-fade-in" style={{ animationDelay: '1.5s' }}>
             <h3 className="text-2xl font-bold mb-4 text-foreground">Education</h3>
             <div className="flex items-start gap-4">
               <div className="w-12 h-12 bg-primary rounded-full flex items-center justify-center flex-shrink-0">

@@ -40,7 +40,7 @@ export const About = () => {
           </div>
 
           {/* Languages */}
-          <div className="mt-12 p-6 bg-card rounded-lg shadow-elegant">
+          <div className="mt-12 p-6 bg-card rounded-lg shadow-elegant animate-fade-in" style={{ animationDelay: '0.7s' }}>
             <h3 className="text-xl font-semibold mb-4 text-foreground">Languages</h3>
             <div className="flex flex-wrap gap-3">
               {[
@@ -50,7 +50,7 @@ export const About = () => {
                 { lang: 'French', level: 'Basic (A2)' },
                 { lang: 'Portuguese', level: 'Basic (A1)' }
               ].map((item) => (
-                <span key={item.lang} className="px-4 py-2 bg-secondary rounded-full text-sm">
+                <span key={item.lang} className="px-4 py-2 bg-secondary rounded-full text-sm hover:scale-105 transition-smooth cursor-default">
                   <strong className="text-foreground">{item.lang}</strong>
                   <span className="text-muted-foreground ml-1">• {item.level}</span>
                 </span>

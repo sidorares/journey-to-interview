@@ -46,7 +46,7 @@ export const Skills = () => {
                     <Badge 
                       key={skill} 
                       variant="secondary"
-                      className="px-3 py-1 hover:bg-primary hover:text-primary-foreground transition-smooth cursor-default"
+                      className="px-3 py-1 hover:bg-primary hover:text-primary-foreground transition-smooth cursor-default hover:scale-105 hover:shadow-glow"
                     >
                       {skill}
                     </Badge>
