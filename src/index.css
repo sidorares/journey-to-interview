@@ -27,9 +27,9 @@ All colors MUST be HSL.
     --muted: 240 5% 96%;
     --muted-foreground: 240 4% 46%;
 
-    --accent: 340 55% 60%;
+    --accent: 340 70% 65%;
     --accent-foreground: 0 0% 100%;
-    --accent-glow: 340 65% 75%;
+    --accent-glow: 340 80% 85%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
@@ -42,14 +42,14 @@ All colors MUST be HSL.
 
     /* Gradients */
     --gradient-primary: linear-gradient(135deg, hsl(250 50% 55%), hsl(250 60% 70%));
-    --gradient-accent: linear-gradient(135deg, hsl(340 55% 60%), hsl(340 65% 75%));
+    --gradient-accent: linear-gradient(135deg, hsl(340 70% 70%), hsl(20 90% 85%));
     --gradient-subtle: linear-gradient(180deg, hsl(0 0% 100%), hsl(240 5% 98%));
     --gradient-hero: linear-gradient(135deg, hsl(250 50% 55%), hsl(340 55% 60%));
 
     /* Shadows */
     --shadow-elegant: 0 10px 40px -10px hsl(250 50% 55% / 0.15);
     --shadow-glow: 0 0 60px hsl(250 60% 70% / 0.25);
-    --shadow-accent: 0 8px 30px -8px hsl(340 55% 60% / 0.2);
+    --shadow-accent: 0 8px 30px -8px hsl(340 70% 65% / 0.2);
 
     /* Transitions */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
@@ -76,9 +76,9 @@ All colors MUST be HSL.
     --muted: 240 8% 15%;
     --muted-foreground: 240 5% 65%;
 
-    --accent: 340 55% 65%;
+    --accent: 340 70% 70%;
     --accent-foreground: 0 0% 100%;
-    --accent-glow: 340 65% 80%;
+    --accent-glow: 340 80% 85%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
@@ -88,13 +88,13 @@ All colors MUST be HSL.
     --ring: 250 70% 55%;
 
     --gradient-primary: linear-gradient(135deg, hsl(250 50% 60%), hsl(250 60% 75%));
-    --gradient-accent: linear-gradient(135deg, hsl(340 55% 65%), hsl(340 65% 80%));
+    --gradient-accent: linear-gradient(135deg, hsl(340 70% 70%), hsl(20 90% 85%));
     --gradient-subtle: linear-gradient(180deg, hsl(240 10% 8%), hsl(240 10% 10%));
     --gradient-hero: linear-gradient(135deg, hsl(250 50% 60%), hsl(340 55% 65%));
 
     --shadow-elegant: 0 10px 40px -10px hsl(0 0% 0% / 0.4);
     --shadow-glow: 0 0 60px hsl(250 60% 75% / 0.15);
-    --shadow-accent: 0 8px 30px -8px hsl(340 55% 65% / 0.3);
+    --shadow-accent: 0 8px 30px -8px hsl(340 70% 70% / 0.3);
   }
 }
 
