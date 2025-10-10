@@ -32,9 +32,7 @@ jobs:
         run: npm ci
 
       - name: Build
-        run: |
-          npm run build
-          mv dist docs
+        run: npm run build
         env:
           NODE_ENV: production
 
@@ -44,7 +42,8 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './docs'
+          # Upload the dist directory created by Vite
+          path: './dist'
 
   deploy:
     environment:
